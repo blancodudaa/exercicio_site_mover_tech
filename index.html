@@ -4,41 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viagem dos sonhos</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header> <h1>Venha realizar a viagem dos seus sonhos!</h1> 
+    <header> 
       <nav> 
         <ul> 
-          <li>Pacotes</li>
-          <li>Taxas</li>
-          <li>Contato</li>
+          <li> <a href="#"> Pacotes </a></li>
+          <li> <a href="#"> Taxas</a></li>
+          <li> <a href="#"> Contato</a></li>
         </ul>
       </nav>
+      
+      <h1>Venha realizar a viagem dos seus sonhos!</h1> 
+      
     </header>
-    <section>
+    <section id="conheca">
         <h2>Conheça nossos pacotes</h2>     
         <p>
             Cras quis volutpat ex. Cras odio dui, maximus ac massa ut, pulvinar malesuada eros. Nulla nibh dolor, scelerisque quis ipsum quis, vulputate euismod risus. Maecenas fringilla vulputate tempor. Suspendisse quis aliquam nisi. Donec in sapien justo. Pellentesque consequat magna nisi, ac vulputate nulla consectetur consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam fringilla lacus id pharetra lacinia. Fusce urna justo, ullamcorper et euismod sed, euismod vitae sem. Curabitur efficitur vestibulum elementum. Pellentesque pharetra lorem ac efficitur consectetur. Cras ornare libero turpis, id vehicula magna varius sit amet. Nunc ut porta ligula.
             <br><br>        
             <a href="https://www.lipsum.com/feed/html" >Link</a>
         </p>
-        <figure>
-          <img src="img_pacotes/cidade-de-holanda.jpg" alt="Foto da cidade de Amsterdan"
-          <p><figcaption>Amsterdan</figcaption> </p>
-        </figure>
-        <figure>
-          <img src="img_pacotes/cidade-de-londres.jpg" alt="Foto da cidade de Londres"
-          <p><figcaption>Londres</figcaption></p>
-        </figure>
-        <figure> 
-          <img src="img_pacotes/cidade-de-paris.jpg" alt=" Foto da cidade de Paris"
-          <p><figcaption>Paris</figcaption></p>
-        </figure>
+        <div class="figuras">
+          <figure>
+            <img src="img_pacotes/cidade-de-holanda.jpg" alt="Foto da cidade de Amsterdan">
+            <figcaption>Amsterdan</figcaption> </p>
+          </figure>
+          <figure>
+            <img src="img_pacotes/cidade-de-londres.jpg" alt="Foto da cidade de Londres">
+            <figcaption>Londres</figcaption></p>
+          </figure>
+          
+          <figure> 
+            <img src="img_pacotes/cidade-de-paris.jpg" alt=" Foto da cidade de Paris">
+            <figcaption>Paris</figcaption></p>
+
+          </figure>
+        </div>
+
+        <div class="videos">
+          <video controls width="900px">
+            <source src="video_site/videoplayback.mp4"type="Video/mp4"
+            Seu navegador não suporta o formato do vídeo. <a href="video_site/videoplayback.mp4">Clique aqui para baixar</a>
+          </video>
+        </div>
       </section>
-      <video controls width="900px">
-        <source src="video_site/videoplayback.mp4"type="Video/mp4"
-        Seu navegador não suporta o formato do vídeo. <a href="video_site/videoplayback.mp4">Clique aqui para baixar</a>
-      </video>
+     
       <br></br>
       <section>
         <h2>
@@ -47,7 +60,7 @@
         <p>
           Conheça nossas taxas de serviços
         </p>
-        <table border>
+        <table>
           <caption> Descrição do serviço e respectivos valores </caption>
           <thead>
             <tr>
